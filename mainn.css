@@ -1,0 +1,81 @@
+body{
+  background-image:url(http://2.bp.blogspot.com/-_qLGrs-5KYQ/VmlN1OwzrZI/AAAAAAAAwqA/lbPsXjJK5U8/s1600/Rosette-Nebula-Wallpaper-HD-10.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+h1{
+  font-size: 40px;
+  color: red;
+    font-family: monospace;
+    background: none;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+}
+
+p, h2 {
+  color: #6298fc;
+}
+
+.secondary{
+  background: #f9f504;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  max-width: px; /* Maximum width */
+  margin: -100 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 250; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 20%; /* Full width */
+  padding: 50px; /* Some padding */
+  height: 312px;
+}
+
+a{
+  text-decoration: none;
+  background-color: ;
+  padding: ;
+
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #6298fc;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: ;
+  color: ;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
